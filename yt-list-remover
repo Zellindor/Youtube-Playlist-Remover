@@ -1,0 +1,9 @@
+links = []
+while True:
+    link = input("Insert YouTube Link: ")
+    if link == "DONE":
+        break
+    link = link[0:43]
+    links.append(link)
+for link in links:
+    print(link)
